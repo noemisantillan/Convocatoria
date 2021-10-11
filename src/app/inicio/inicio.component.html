@@ -1,0 +1,158 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Inicio</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" mdbWavesEffect> Inicio<span class="sr-only">(current)</span></a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          Convocatorias<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.gob.mx/cms/uploads/attachment/file/665384/Ampliacio_n_Convocatoria_Innovadores_LTG_1o_y_2o_25_08_2025.pdf">Innovación de los LTG</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.gob.mx/cms/uploads/attachment/file/665383/Ampliacio_n_Convocatoria_Evaluacio_n_LTG_1o_y_2o_25_08_2021.pdf">Evaluación y Mesas de Trabajo</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link waves-light" mdbWavesEffect> Aviso de Privacidad</a>
+      </li>
+
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+
+
+<mdb-carousel [animation]="'slide'">
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="../../assets/img/bannerprincipal.svg" alt="First slide">
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img class="d-block w-100" src="../../assets/img/principal.png" alt="Second slide">
+    </mdb-carousel-item>
+  </mdb-carousel>
+
+
+<!-- Section: Blog v.1 -->
+<section class="my-5">
+
+    <!-- Section description -->
+    <h5 class="text-center w-responsive mx-auto mb-5">LA SECRETARÍA DE EDUCACIÓN PÚBLICA A TRAVÉS DE LA DIRECCIÓN GENERAL DE MATERIALES EDUCATIVOS
+        DE LA SUBSECRETARÍA DE EDUCACIÓN BÁSICA Y LA ESTRATEGIA NACIONAL DE LECTURA, INVITA A PARTICIPAR
+        EN EL DISEÑO DE LOS LIBROS DE TEXTO GRATUITOS</h5>
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-5">
+  
+        <!-- Featured image -->
+        <div class="center w-responsive mx-auto mb-5" mdbWavesEffect>
+          <img class="img-fluid" src="../../assets/img/innovacion.svg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7">
+  
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>CONVOCATORIA</strong></h3>
+        <!-- Excerpt -->
+        <h4>Innovadores en los Libros de Texto
+            Gratuitos 1ro. y 2do. Grados de Primaria</h4>
+        <!-- Post data -->
+        <p>Vigencia: 25 de septiembre</p>
+        <!-- Read more button -->
+        <button mdbBtn type="button" gradient="blue" mdbWavesEffect href="https://www.gob.mx/cms/uploads/attachment/file/665384/Ampliacio_n_Convocatoria_Innovadores_LTG_1o_y_2o_25_08_2025.pdf">VER MÁS</button>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+    <hr class="my-5">
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-7">
+  
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>CONVOCATORIA</strong></h3>
+        <!-- Excerpt -->
+        <h4>Evaluación y Mesas de Trabajo dentro del
+            Marco de Innovación en los Libros de Texto
+            Gratuitos 1ro. y 2do. Grados de Primaria</h4>
+        <!-- Post data -->
+        <p>Vigencia: 25 de septiembre</p>
+        <!-- Read more button -->
+        <button mdbBtn type="button" gradient="aqua" mdbWavesEffect>VER MÁS</button>
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-5">
+  
+        <!-- Featured image -->
+        <div class="center w-responsive mx-auto mb-5" mdbWavesEffect>
+          <img class="img-fluid" src="../../assets/img/evaluacion.svg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+    <hr class="my-5">
+  
+  
+  </section>
+
+  <!-- Section: Blog v.1 -->
+
+  <section id="social-buttons" class="text-center">
+
+    <!--Section heading-->
+
+    <h4 class="pb-4 mb-4">Síguenos</h4>
+
+    <!--Facebook-->
+    <a type="button" class="btn-floating my-1 btn-fb waves-effect waves-light">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <!--Twitter-->
+    <a type="button" class="btn-floating my-1 btn-tw waves-effect waves-light">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <!--Youtube-->
+    <a type="button" class="btn-floating my-1 btn-yt waves-effect waves-light">
+      <i class="fab fa-youtube"></i>
+    </a>
+
+  </section>
